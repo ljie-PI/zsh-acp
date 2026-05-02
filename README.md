@@ -1,6 +1,6 @@
 # zsh-acp Zsh Plugin
 
-`zsh-acp` Zsh plugin integrates any ACP-compatible agent (Kimi, Claude, Codex, Gemini, Copilot, OpenCode, Qwen, etc.) into Zsh.
+`zsh-acp` Zsh plugin integrates any ACP-compatible agent (kimi, Claude, Codex, Gemini, Copilot, OpenCode, Qwen, etc.) into Zsh.
 
 Press `Ctrl-X`, type your request, and the plugin routes it through a built-in ACP client to your chosen agent with a persistent `zsh-session`.
 
@@ -61,7 +61,7 @@ Pick the method that matches your Zsh setup.
 
 ```zsh
 # clone anywhere you prefer
-git clone https://github.com/MoonshotAI/zsh-zsh-acp.git ~/.zsh/zsh-acp
+git clone https://github.com/ljie-PI/zsh-acp.git ~/.zsh/zsh-acp
 
 # load the plugin in .zshrc
 source ~/.zsh/zsh-acp/zsh-acp.plugin.zsh
@@ -74,7 +74,7 @@ Open a new shell (or `exec zsh`) to activate the handler.
 ### Oh My Zsh
 
 ```zsh
-git clone https://github.com/MoonshotAI/zsh-zsh-acp.git \
+git clone https://github.com/ljie-PI/zsh-acp.git \
   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-acp
 
 # in ~/.zshrc
@@ -86,30 +86,30 @@ Reload Zsh to pick up the plugin.
 ### Antigen
 
 ```zsh
-antigen bundle MoonshotAI/zsh-zsh-acp
+antigen bundle ljie-PI/zsh-acp
 antigen apply
 ```
 
 ### Zinit
 
 ```zsh
-zinit light MoonshotAI/zsh-zsh-acp
+zinit light ljie-PI/zsh-acp
 ```
 
 ### Znap
 
 ```zsh
-znap source MoonshotAI/zsh-zsh-acp
+znap source ljie-PI/zsh-acp
 ```
 
 ### Fig
 
 ```zsh
-fig plugin install MoonshotAI/zsh-zsh-acp
+fig plugin install ljie-PI/zsh-acp
 ```
 
 ### Zplug
 
 ```zsh
-zplug "MoonshotAI/zsh-zsh-acp", as:plugin
+zplug "ljie-PI/zsh-acp", as:plugin
 ```
